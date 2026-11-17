@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MouseWorks</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { color-scheme: light dark; --bg: #ffffff; --fg: #1d1d1f; --muted: #6e6e73; --accent: #0a7d80; --card: #f5f5f7; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1c1c1e; --fg: #f5f5f7; --muted: #a1a1a6; --accent: #34d6be; --card: #2c2c2e; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+       font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+header img { width: 48px; height: 48px; }
+header a { color: var(--fg); text-decoration: none; font-weight: 600; font-size: 20px; }
+nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
+nav a { font-weight: 400; font-size: 15px; color: var(--accent); }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--fg); }
+em { color: var(--muted); }
+a { color: var(--accent); }
+ul { padding-left: 22px; }
+.lead { font-size: 19px; color: var(--muted); }
+.links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.links a { background: var(--card); padding: 10px 16px; border-radius: 10px; text-decoration: none; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="icon.png" alt="">
+<a href="">MouseWorks</a>
+<nav><a href="support/">Support</a><a href="privacy/">Privacy</a></nav>
+</header>
+<h1>MouseWorks</h1>
+<p class="lead">Make your mouse feel at home on the Mac.</p>
+<p>Smooth, reversible wheel scrolling, back and forward on the side buttons in almost every app, and any shortcut on any button. Your trackpad stays exactly as it is.</p>
+<div class="links"><a href="support/">Support</a><a href="privacy/">Privacy Policy</a></div>
+<footer>© 2026 Ryan Lee</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MouseWorks Support</title>
+<link rel="icon" href="../icon.png">
+<style>
+:root { color-scheme: light dark; --bg: #ffffff; --fg: #1d1d1f; --muted: #6e6e73; --accent: #0a7d80; --card: #f5f5f7; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1c1c1e; --fg: #f5f5f7; --muted: #a1a1a6; --accent: #34d6be; --card: #2c2c2e; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+       font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+header img { width: 48px; height: 48px; }
+header a { color: var(--fg); text-decoration: none; font-weight: 600; font-size: 20px; }
+nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
+nav a { font-weight: 400; font-size: 15px; color: var(--accent); }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--fg); }
+em { color: var(--muted); }
+a { color: var(--accent); }
+ul { padding-left: 22px; }
+.lead { font-size: 19px; color: var(--muted); }
+.links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.links a { background: var(--card); padding: 10px 16px; border-radius: 10px; text-decoration: none; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="../icon.png" alt="">
+<a href="../">MouseWorks</a>
+<nav><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav>
+</header>
+<h1>MouseWorks Support</h1>
+<p>Need help with MouseWorks? Most questions are answered below. If yours isn't, email <a href="mailto:ryanleesoftware@proton.me">ryanleesoftware@proton.me</a> and include your Mac model, your macOS version, your mouse model and the MouseWorks version (MouseWorks ▸ About MouseWorks).</p>
+<h2>Getting started</h2>
+<p><strong>MouseWorks doesn't do anything.</strong> MouseWorks needs two permissions. Open System Settings ▸ Privacy &amp; Security and make sure MouseWorks is turned on under both <strong>Input Monitoring</strong> and <strong>Accessibility</strong>. Then open MouseWorks ▸ Settings ▸ Permissions. If both are granted but it still doesn't work, click <strong>Relaunch MouseWorks</strong> there.</p>
+<p><strong>Where is MouseWorks?</strong> It lives in the menu bar (the mouse icon). If you've hidden that icon, open MouseWorks again from your Applications folder to get to Settings.</p>
+<p><strong>My trackpad scrolling didn't change.</strong> That's on purpose. MouseWorks only changes mice with a scroll wheel. Trackpads and the Magic Mouse are left exactly as they are.</p>
+<h2>Scrolling</h2>
+<p><strong>My mouse scrolls the wrong way.</strong> Turn on Settings ▸ Scrolling ▸ Reverse vertical scrolling. It only changes the mouse, so your trackpad keeps its own direction.</p>
+<p><strong>Scrolling feels too slow or too fast.</strong> Change Distance per notch in Settings ▸ Scrolling. macOS's own scrolling speed (System Settings ▸ Mouse) still applies as well.</p>
+<h2>Buttons</h2>
+<p><strong>The side buttons don't go back and forward in an app.</strong> Check that Universal back/forward is on in Settings ▸ Buttons. If one app still doesn't respond, add it in Settings ▸ Apps, open it with ›, turn off "Use MouseWorks' choice" and record the app's own back and forward shortcuts.</p>
+<p><strong>The extra buttons on top of my mouse don't show up.</strong> On many mice these buttons change the DPI inside the mouse itself and never send anything to the Mac, so no app can remap them.</p>
+<p><strong>A button mapping does nothing.</strong> If the button is also your drag-to-scroll button, it only runs Click and Double-click mappings. Choose a different drag button in Settings ▸ Scrolling ▸ Drag to Scroll, or turn it off.</p>
+<p><strong>A button sometimes clicks twice.</strong> Turn on Ignore accidental double clicks in Settings ▸ Buttons. It's made for worn mouse switches.</p>
+<h2>Games and other apps</h2>
+<p><strong>How do I turn MouseWorks off in one app?</strong> Settings ▸ Apps ▸ +, choose the app, open it with › and turn on Turn off MouseWorks in this app.</p>
+<p><strong>Can I use MouseWorks with another mouse utility?</strong> It's best not to run two at once. Apps such as Logi Options+, Mos, LinearMouse or Mac Mouse Fix change the same events, and they'll fight over them.</p>
+<h2>Privacy</h2>
+<p>MouseWorks collects no data and never reads your keyboard. See the privacy policy for details.</p>
+<footer>© 2026 Ryan Lee</footer>
+</main>
+</body>
+</html>
